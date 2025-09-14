@@ -5,7 +5,7 @@ const SUB_PATH: string = Deno.env.get("SUB_PATH") || "sub";  //获取订阅路�
 const XPATH: string = Deno.env.get("XPATH") || "xhttp";      // 节点路径
 const DOMAIN: string = Deno.env.get("DOMAIN") || "";         // deno分配的域名必填，不带https://前缀，例如：xxxx.deno.dev      
 const NAME: string = Deno.env.get("NAME") || "Deno";         // 名称
-const PORT: number = parseInt(Deno.env.get("PORT") || "3000"); 
+const PORT: number = parseInt(Deno.env.get("PORT") || "8987"); 
 
 const SETTINGS: Settings = {
   UUID,
